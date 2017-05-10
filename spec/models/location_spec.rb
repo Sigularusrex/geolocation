@@ -3,17 +3,9 @@ require 'rails_helper'
 
 
 describe Geolocation::Location do
-  
+
   before :context do
-    @location = Geolocation::Location.create({
-                                                 ip_address: '200.106.141.15',
-                                                 country_code: 'SI',
-                                                 country: 'Nepal',
-                                                 city: 'DuBuquemouth',
-                                                 latitude: -84.87503094689836,
-                                                 longitude: 7.206435933364332,
-                                                 mystery_value: '7823011346'
-                                             })
+    @location = build(:location)
   end
 
   describe "validation error" do
@@ -23,9 +15,21 @@ describe Geolocation::Location do
       expect(@location.valid?).to be(true)
     end
 
-    it "should invalidate incorrect IP Address"
-    it "should invalidate incorrect Latitude"
-    it "should invalidate incorrect Longitude"
+    it "should invalidate incorrect IP Address" do
+      @location.ip_address = "INVALID"
+      expect(@location.valid?).to be(false)
+    end
+
+    it "should invalidate incorrect Latitude" do
+      @location.latitude = 1234567
+      expect(@location.valid?).to be(false)
+    end
+
+    it "should invalidate incorrect Longitude" do
+      @location.longitude = 1234567
+      expect(@location.valid?).to be(false)
+    end
+
 
   end
 end
