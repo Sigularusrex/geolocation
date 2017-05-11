@@ -75,21 +75,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="geolocation.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="geolocation.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/generators/geolocation/setup/templates/geolocation.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.083102494" vertical-offset="0" max-vertical-offset="722">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
               <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-28.8" vertical-offset="0" max-vertical-offset="915">
-              <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+            <state vertical-scroll-proportion="-0.011477762" vertical-offset="218" max-vertical-offset="915">
+              <caret line="14" column="72" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -150,8 +150,8 @@
         <option value="$PROJECT_DIR$/spec/dummy/config/initializers/geolocation.rb" />
         <option value="$PROJECT_DIR$/lib/models/location.rb" />
         <option value="$PROJECT_DIR$/lib/generators/geolocation/fetch_data/fetch_data_generator.rb" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lib/generators/geolocation/setup/templates/geolocation.rb" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -868,18 +868,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/lib/generators/geolocation/setup/templates/geolocation.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-28.8" vertical-offset="0" max-vertical-offset="915">
-          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/geolocation/setup/templates/geolocation.rb">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.083102494" vertical-offset="0" max-vertical-offset="722">
-          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+        <state vertical-scroll-proportion="-0.011477762" vertical-offset="218" max-vertical-offset="915">
+          <caret line="14" column="72" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
           <folding />
         </state>
       </provider>

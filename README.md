@@ -12,7 +12,7 @@ location.inspect # returns #<Geolocation::Location:0x007fc0d5adf118> #<Geolocati
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'geolocation'
+gem 'geolocation', :git => 'https://github.com/Sigularusrex/geolocation'
 ```
 
 And then execute:
