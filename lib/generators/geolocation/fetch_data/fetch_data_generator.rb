@@ -41,7 +41,7 @@ module Geolocation
 
       # Display Stats
       end_time = Time.now
-      elapsed_time = (end_time - start_time) * 100.0
+      elapsed_time = (end_time - start_time)
       accepted = processed - rejected
       puts "Accepted Records #{accepted}"
       puts "Rejected Records #{rejected}"
