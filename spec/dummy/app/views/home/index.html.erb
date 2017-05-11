@@ -1,3 +1,2 @@
-<%= location = Geolocation::Location.find("200.106.141.15") %>
-
-<%= location.city %>
+<%= location = Geolocation::Location.search("200.106.141.15") %>
+<%= location.inspect %>

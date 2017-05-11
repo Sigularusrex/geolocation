@@ -30,6 +30,42 @@ describe Geolocation::Location do
       expect(@location.valid?).to be(false)
     end
 
+    it "should require an IP Address" do
+      @location.ip_address = nil
+      @location.should_not be_valid
+    end
+
+    it "should require an Country Code" do
+      @location.country_code = nil
+      @location.should_not be_valid
+    end
+
+    it "should require an Country" do
+      @location.country = nil
+      @location.should_not be_valid
+    end
+
+    it "should require an City" do
+      @location.city = nil
+      @location.should_not be_valid
+    end
+
+    it "should require an Latitude" do
+      @location.latitude = nil
+      @location.should_not be_valid
+    end
+
+    it "should require an Longitude" do
+      @location.longitude = nil
+      @location.should_not be_valid
+    end
+
+    it "should require a Mystery Value" do
+      @location.mystery_value = nil
+      @location.should_not be_valid
+    end
+
+
 
   end
 end
