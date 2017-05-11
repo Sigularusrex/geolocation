@@ -31,3 +31,6 @@ end
 
 
 task default: :test
+
+#Make custom tasks accessible
+Dir.glob('lib/tasks/*.rake').each {|r| import r}
